@@ -123,6 +123,10 @@ a:hover {
   color: var(--nav-item-link-hover);
 }
 
+.card-category {
+  color: var(--color-primary);
+}
+
 .section {
   padding: var(--section-padding);
 }
@@ -136,6 +140,10 @@ a:hover {
   padding: var(--section-body-padding);
 }
 
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
 
 .section-title {
   font-family: var(--font-family-title);
@@ -184,6 +192,14 @@ ul.row {
     background-color: var(--color-black);
 }
 
+.social-link {
+  display: block;
+}
+
+.social-link > svg {
+  color: var(--text-color);
+}
+
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
@@ -196,17 +212,9 @@ ul.row {
   margin-left: auto;
   margin-right: auto;
 }
-.card-category {
-  color: var(--color-primary);
-}
 
 .footer ul {
   text-align: right;
-}
-
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
 }
 
 .footer {
@@ -214,13 +222,5 @@ ul.row {
 }
 
 .footer-address {
-  color: var(--text-color);
-}
-
-.social-link {
-  display: block;
-}
-
-.social-link > svg {
   color: var(--text-color);
 }
