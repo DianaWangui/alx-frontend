@@ -12,13 +12,17 @@
   --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.section-tagline, .card-category {
-  color: var(--color-primary);
+html {
+  scroll-behavior: smooth;
 }
 
-body, a {
+body {
   color: var(--text-color);
   font-family: var(--font-family-base);
+}
+
+.visually-hidden {
+  display: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,8 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.visually-hidden {
-  display: none;
+a {
+  color: var(--text-color);
 }
+
+.section-tagline {
+  color: var(--color-primary);
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
+
+
 
 
