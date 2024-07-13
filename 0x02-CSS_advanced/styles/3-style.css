@@ -7,9 +7,17 @@
   --color-light-grey: #353535;
   --text-color: var(--color-black);
 }
+
 .section-tagline, .card-category {
   color: var(--color-primary);
 }
+
 body, a {
   color: var(--text-color);
 }
+
+.visually-hidden {
+  display: none;
+}
+
+
