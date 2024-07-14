@@ -173,7 +173,7 @@ a:hover {
   color: var(--nav-item-link-hover);
 }
 
-.vav .nav-link::before {
+.nav .nav-link::before {
   content: "";
   position: absolute;
   top: 0;
