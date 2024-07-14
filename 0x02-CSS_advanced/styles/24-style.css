@@ -168,7 +168,7 @@ a:hover {
 
 .card-services a {
   display: block;
-  padding: 2px;
+  padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
