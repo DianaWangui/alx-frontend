@@ -269,7 +269,7 @@ a:hover {
   z-index: 1;
 }
 
-.card-work .card-inner:hover {
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
