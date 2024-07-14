@@ -296,7 +296,7 @@ a:hover {
   content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
   opacity: 1;
 }
 
